@@ -41,6 +41,36 @@ button {
   font-size: 15px;
   border-radius: 4px;
 }
+
+
+/* Accordion "My UX Skills */
+.accordion {
+  background-color: #077187;
+  color: #fffff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid white;
+  outline: none;
+  transition: 0.2s;
+  font-size: 20px;
+}
+
+.active, .accordion:hover {
+  background-color: #077187;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #077187;
+  color: white;
+  display: none;
+  overflow: hidden;
+  text-align: center;
+}
+
+
 footer {
   background-color: #9ece9a;
   padding: 5px;
@@ -60,6 +90,12 @@ footer li {
   padding: 15px 5px;
   font-size: 30px;
 }
+
+
+
+
+
+
 /* My UX Skills Section */
 .flexContainer {
   display: flex;
@@ -113,4 +149,3 @@ footer li {
 .content3 {
   grid-area: content3;
 }
-
